@@ -29,3 +29,12 @@ temp_binaries/
 test_legacy.rpt
 thread_*.rpt
 entoolkit.log
+
+# Tooling
+.coverage
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pixi/
+scratch/
+entoolkit-2.2.0/

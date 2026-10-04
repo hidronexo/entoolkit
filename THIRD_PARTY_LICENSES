@@ -1,0 +1,206 @@
+Third-party licenses
+====================
+
+entoolkit redistributes binaries and a sample network derived from the
+projects below. Their licenses are reproduced as required.
+
+1. EPANET 2.2 (Open Water Analytics) - MIT License
+   Source: https://github.com/OpenWaterAnalytics/EPANET
+   Covers the epanet2/libepanet binaries and tests/networks/Net1.inp.
+
+MIT License
+
+Copyright (c) 2019 (See AUTHORS)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice, list of authors, and this permission notice shall 
+be included in all copies or substantial portions of the Software. 
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+   Authors (from AUTHORS in the upstream repository):
+
+# Authors ordered alphabetically.
+
+Authors with Contributions in the Public Domain:
+Lewis Rossman <LRossman@cinci.rr.com>
+Michael Tryby <tryby.michael@epa.gov>
+
+Version 2.0
+Lewis Rossman <LRossman@cinci.rr.com>
+
+Authors with Contributions Subject to Copyright (see LICENSE):
+Except where noted.
+
+Version 2.1
+Jinduan	Chen <jinduan.uc@gmail.com>
+Maurizio Cingi <mrzcng2@gmail.com>
+Demetrios Eliades <eldemet@gmail.com>
+Will Furnass <will@thearete.co.uk>
+Milad Ghiami <milad.ghiami67@gmail.com>
+Sam Hatchett <samhatchett@gmail.com>
+Mike Kane <muke195@gmail.com>
+Marios Kyriakou <mariosmsk@gmail.com>
+Steffen	Macke <sdteffen@sdteffen.de>
+Angela Marchi <angela.marchi@adelaide.edu.au>
+Bryant McDonnell <bemcdonnell@gmail.com>
+Lew Rossman <LRossman@cinci.rr.com>
+Elad Salomons <selad@optiwater.com>
+Feng Shang <fengshang72@gmail.com>	
+Yunier Soad <yunier.soad@gmail.com>
+Tom Taxon <tntaxon@anl.gov>
+Michael	Tryby <tryby.michael@epa.gov> (Contributions in the Public Domain)
+James Uber <jim@citilogics.com>
+Hyoungmin Woo <hyoungmin.woo@gmail.com>
+
+Version 2.2
+Demetrios Eliades <eldemet@gmail.com>
+Sam Hatchett <samhatchett@gmail.com>
+Abel Heinsbroek <mail@abelheinsbroek.nl>
+Marios Kyriakou <mariosmsk@gmail.com>
+Lewis Rossman <LRossman@cinci.rr.com>
+Elad Salomons <selad@optiwater.com>
+Markus Sunela <markus.sunela@fluidit.fi>
+Michael Tryby <tryby.michael@epa.gov> (Contributions in the Public Domain)
+
+Version 2.3
+Luke Butler <lukepbutler@gmail.com>
+Demetrios Eliades <eldemet@gmail.com>
+Sam Hatchett <samhatchett@gmail.com>
+Abel Heinsbroek <mail@abelheinsbroek.nl>
+Robert Janke <janke.robert@epa.gov>
+Marios Kyriakou <mariosmsk@gmail.com>
+Corey McNeish  
+0tkl <tkl.zhaoqing@gmail.com>
+Lewis Rossman <LRossman@cinci.rr.com>
+Elad Salomons <selad@optiwater.com>
+Alex Sinske 
+Sahand Tashak 
+Yu Chun Tsao 
+James Uber <jim@citilogics.com>
+Oscar Vegas Niño <ovegas141279@gmail.com>
+Dennis Zanutto <dennis.zanutto@kwrwater.nl>
+----------------------------------------------------------------
+
+2. WNTR (US EPA / Sandia National Laboratories) - Revised BSD License
+   Source: https://github.com/USEPA/WNTR
+   Covers the platform-specific binaries and network examples adapted from WNTR.
+
+Copyright Notice
+=================
+
+Copyright 2024 National Technology & Engineering Solutions of Sandia, LLC 
+(NTESS). Under the terms of Contract DE-NA0003525 with NTESS, the U.S. 
+Government retains certain rights in this software.
+
+License Notice
+=================
+
+This software is distributed under the Revised BSD License (see below).
+WNTR also leverages a variety of third-party software packages, which
+have separate licensing policies.  
+
+Revised BSD License
+-------------------
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions
+are met:
+
+* Redistributions of source code must retain the above copyright notice, this 
+  list of conditions and the following disclaimer.
+* Redistributions in binary form must reproduce the above copyright notice, 
+  this list of conditions and the following disclaimer in the documentation 
+  and/or other materials provided with the distribution.
+* Neither the name of Sandia National Laboratories, nor the names of
+  its contributors may be used to endorse or promote products derived from
+  this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED
+TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR
+PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF
+LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING
+NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+
+Third-Party Libraries
+=================================
+WNTR includes source code from the following third-party libraries:
+
+Numpy
+-----
+
+Copyright (c) 2005-2019, NumPy Developers.
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are
+met:
+
+    * Redistributions of source code must retain the above copyright
+       notice, this list of conditions and the following disclaimer.
+
+    * Redistributions in binary form must reproduce the above
+       copyright notice, this list of conditions and the following
+       disclaimer in the documentation and/or other materials provided
+       with the distribution.
+
+    * Neither the name of the NumPy Developers nor the names of any
+       contributors may be used to endorse or promote products derived
+       from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+"AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+EPANET
+------
+
+MIT License
+
+Copyright (c) 2019 (See AUTHORS, https://github.com/OpenWaterAnalytics/EPANET/blob/dev/AUTHORS)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice, list of authors, and this permission notice shall 
+be included in all copies or substantial portions of the Software. 
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+

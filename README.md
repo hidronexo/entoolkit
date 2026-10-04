@@ -113,8 +113,8 @@ And the OWA community for the 2.2 upgrade:
 
 ## License
 
-The `entoolkit` wrapper is licensed under the **GNU General Public License v2 (GPLv2)**. 
-Bundled EPANET binaries are subject to their respective licenses (Public Domain / MIT / BSD), which are compatible with GPLv2 for redistribution.
+The `entoolkit` wrapper is licensed under the **GNU General Public License v2 or later (GPL-2.0-or-later)**.
+Bundled EPANET (MIT) and WNTR (BSD-3-Clause) binaries keep their own licenses, which are compatible with the GPL for redistribution. Their notices are reproduced in `THIRD_PARTY_LICENSES`.
 
 ---
 

@@ -1,0 +1,70 @@
+[build-system]
+requires = ["setuptools>=77.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "entoolkit"
+version = "0.0.15"
+authors = [{ name = "HIDRONEXO", email = "opensource@hidronexo.com" }]
+description = "Python extension for the EPANET 2.2 Programmer Toolkit"
+readme = "README.md"
+license = "GPL-2.0-or-later"
+license-files = ["LICENSE", "NOTICE", "THIRD_PARTY_LICENSES"]
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering",
+]
+
+[project.urls]
+Homepage = "https://github.com/hidronexo/entoolkit"
+"Bug Tracker" = "https://github.com/hidronexo/entoolkit/issues"
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+include = ["entoolkit*"]
+
+[tool.setuptools.package-data]
+entoolkit = ["epanet/*/*"]
+
+[tool.pixi.workspace]
+channels = ["conda-forge"]
+platforms = ["win-64"]
+
+[tool.pixi.dependencies]
+python = ">=3.11,<3.14"
+pytest = "*"
+ruff = "*"
+mypy = "*"
+commitizen = "*"
+
+[tool.pixi.pypi-dependencies]
+entoolkit = { path = ".", editable = true }
+
+[tool.pixi.tasks]
+test = "pytest -q"
+lint = "ruff check entoolkit tests"
+typecheck = "mypy entoolkit"
+release = "cz bump"
+
+[tool.commitizen]
+name = "cz_conventional_commits"
+version_provider = "pep621"
+tag_format = "v$version"
+major_version_zero = true
+update_changelog_on_bump = true
+
+[tool.mypy]
+python_version = "3.11"
+ignore_missing_imports = true
+
+[tool.ruff]
+target-version = "py38"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B"]
+ignore = ["E501"]
