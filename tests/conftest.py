@@ -1,6 +1,9 @@
 import os
+
 import pytest
+
 from entoolkit import EPANETProject
+
 
 @pytest.fixture
 def net1_path():

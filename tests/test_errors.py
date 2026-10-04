@@ -1,5 +1,7 @@
 import pytest
-from entoolkit import EPANETProject, legacy
+
+from entoolkit import legacy
+
 
 def test_modern_invalid_node_id(project, net1_path):
     project.open(net1_path)

@@ -1,7 +1,10 @@
-import unittest.mock as mock
 import ctypes
+import unittest.mock as mock
+
 import pytest
+
 from entoolkit import EPANETProject
+
 
 def test_project_creation_failure():
     """Cover line 163 in toolkit.py (EN_createproject failure)."""

@@ -1,9 +1,15 @@
-import pytest
 from entoolkit import (
-    EPANETProject, EN_JUNCTION, EN_RESERVOIR, EN_PIPE, 
-    EN_ELEVATION, EN_DIAMETER, EN_LENGTH, EN_ROUGHNESS,
-    EN_LPS, EN_HW
+    EN_DIAMETER,
+    EN_ELEVATION,
+    EN_HW,
+    EN_JUNCTION,
+    EN_LENGTH,
+    EN_LPS,
+    EN_PIPE,
+    EN_RESERVOIR,
+    EN_ROUGHNESS,
 )
+
 
 def test_build_network_from_scratch(project):
     """Verify that we can create nodes and links manually."""

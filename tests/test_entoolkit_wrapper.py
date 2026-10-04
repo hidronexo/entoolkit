@@ -1,6 +1,5 @@
-import os
-import pytest
 from entoolkit import legacy as toolkit
+
 
 def test_version():
     assert toolkit.ENgetversion() == 20200

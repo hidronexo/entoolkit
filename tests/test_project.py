@@ -1,6 +1,5 @@
-import os
-import pytest
-from entoolkit import EPANETProject, EN_PRESSURE, EN_BASEDEMAND, EN_JUNCTION, EN_LPS, EN_HW
+from entoolkit import EN_BASEDEMAND, EN_HW, EN_JUNCTION, EN_LPS, EN_PRESSURE
+
 
 def test_project_simulation(project, net1_path):
     project.open(net1_path, "test_project.rpt", "")

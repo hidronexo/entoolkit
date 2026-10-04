@@ -9,11 +9,10 @@ For thread-safe, multi-project, and high-precision (double) simulations,
 use `entoolkit.toolkit.EPANETProject` instead.
 """
 import ctypes
-import platform
-import sys
 import logging
+import platform
 from pathlib import Path
-from typing import Tuple, List, Optional, Callable, Union
+from typing import Callable, List, Optional, Tuple
 
 from .constants import *
 
@@ -39,6 +38,7 @@ else:
     _arch = "x86"
 
 # Library selection based on platform
+_lib: ctypes.CDLL
 if _OS_NAME == "windows":
     _lib_path = _BASE_PATH / f"windows-{_arch}" / "epanet2.dll"
     # Using WinDLL for __stdcall convention on Windows

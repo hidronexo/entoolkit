@@ -1,12 +1,17 @@
-import pytest
 import os
-import ctypes
-from entoolkit import legacy
+
+import pytest
+
 from entoolkit import (
-    EN_NODECOUNT, EN_LINKCOUNT, EN_JUNCTION, EN_PIPE,
-    EN_DURATION, EN_HYDSTEP, EN_QUALSTEP, EN_NONE, EN_CHEM,
-    EN_ELEVATION, EN_TANK, EN_PUMP, EN_BASEDEMAND, EN_FLOW
+    EN_CHEM,
+    EN_ELEVATION,
+    EN_JUNCTION,
+    EN_NODECOUNT,
+    EN_PIPE,
+    EN_TANK,
+    legacy,
 )
+
 
 def test_legacy_lifecycle_and_metadata(net1_path):
     """Test project lifecycle and metadata functions in legacy."""

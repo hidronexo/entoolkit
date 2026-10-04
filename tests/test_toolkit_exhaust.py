@@ -1,7 +1,6 @@
-import unittest.mock as mock
 import ctypes
-import pytest
-from entoolkit import EPANETProject, EN_NODECOUNT, EN_LINKCOUNT
+import unittest.mock as mock
+
 
 def test_toolkit_getnodeid(project, net1_path):
     """Cover getnodeid lines."""

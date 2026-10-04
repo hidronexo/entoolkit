@@ -1,8 +1,8 @@
-import sys
-import unittest.mock as mock
 import importlib
+import unittest.mock as mock
+
 import pytest
-import ctypes
+
 
 def test_platform_loading_coverage():
     """

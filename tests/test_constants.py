@@ -1,5 +1,6 @@
 from entoolkit import constants
 
+
 def test_size_limits():
     assert constants.EN_MAXID == 31
     assert constants.EN_MAXMSG == 255

@@ -1,8 +1,5 @@
-import pytest
-from entoolkit import (
-    EPANETProject, EN_LOWLEVEL, EN_NODECOUNT, EN_LINKCOUNT,
-    EN_TANK, EN_PIPE, EN_CONTROLCOUNT
-)
+from entoolkit import EN_CONTROLCOUNT, EN_LOWLEVEL, EN_PIPE, EN_TANK
+
 
 def test_add_and_get_control(project):
     """Verify adding and retrieving simple controls."""

@@ -1,9 +1,6 @@
-import unittest.mock as mock
-import platform
 import importlib
-import pytest
-import os
-import sys
+import unittest.mock as mock
+
 
 def test_platform_logic_isolated():
     """Test the OS and architecture detection branches in legacy.py in an isolated environment."""

@@ -1,5 +1,3 @@
-import pytest
-from entoolkit import EPANETProject
 
 def test_multiple_demands_category(project):
     """Verify adding and deleting multiple demand categories for a node."""

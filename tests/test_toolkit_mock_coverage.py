@@ -1,9 +1,11 @@
-import pytest
 import unittest.mock as mock
-import ctypes
+
+import pytest
+
 from entoolkit import toolkit
 from entoolkit.constants import *
 from entoolkit.legacy import ENtoolkitError
+
 
 def test_toolkit_full_mock_coverage_v2():
     """Systematically hit every branch in toolkit.py using mocks."""

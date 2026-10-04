@@ -6,10 +6,10 @@ to manage multiple network simulations simultaneously with double precision.
 """
 import ctypes
 import logging
-from typing import Tuple, List, Optional, Union
+from typing import List, Tuple
 
 from .constants import *
-from .legacy import _lib, ENtoolkitError, ERR_MAX_CHAR, MAX_LABEL_LEN, MAX_TITLE_LEN
+from .legacy import ERR_MAX_CHAR, MAX_LABEL_LEN, MAX_TITLE_LEN, ENtoolkitError, _lib
 
 logger = logging.getLogger("entoolkit")
 

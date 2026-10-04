@@ -1,5 +1,5 @@
-import pytest
-from entoolkit import EPANETProject, EN_ACCURACY, EN_TRIALS, EN_FLOWUNITS, EN_LPS
+from entoolkit import EN_ACCURACY, EN_FLOWUNITS, EN_TRIALS
+
 
 def test_project_titles(project):
     """Verify setting and getting project titles."""

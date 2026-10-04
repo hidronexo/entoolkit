@@ -3,8 +3,9 @@ Logging configuration for the EnToolkit package.
 """
 import logging
 import logging.handlers
-import os
-from .constants import LOG_MAX_SIZE_MB, LOG_FILE_NAME
+
+from .constants import LOG_FILE_NAME, LOG_MAX_SIZE_MB
+
 
 def init_logger():
     """Initializes the entoolkit logger.

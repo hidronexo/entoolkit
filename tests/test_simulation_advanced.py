@@ -1,8 +1,5 @@
-import pytest
-from entoolkit import (
-    EPANETProject, EN_PRESSURE, EN_DEMAND, 
-    EN_PDA, EN_DDA, EN_QUALITY, EN_AGE
-)
+from entoolkit import EN_AGE, EN_DEMAND, EN_PDA, EN_QUALITY
+
 
 def test_pda_simulation(project, net1_path):
     """Verify that shifting to PDA mode works."""

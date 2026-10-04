@@ -1,7 +1,7 @@
-import threading
 import os
-import pytest
-from entoolkit import EPANETProject, EN_PRESSURE
+import threading
+
+from entoolkit import EN_PRESSURE, EPANETProject
 
 NET1_PATH = os.path.join(os.path.dirname(__file__), "networks", "Net1.inp")
 

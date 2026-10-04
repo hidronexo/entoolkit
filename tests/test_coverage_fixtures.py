@@ -1,6 +1,7 @@
 import os
-import pytest
+
 from entoolkit import EPANETProject
+
 
 def test_fixtures_coverage(project, net1_path):
     """Explicitly use fixtures to cover conftest.py branches."""
@@ -18,8 +19,9 @@ def test_conftest_cleanup_error(project):
 
 def test_legacy_convenience_loops():
     """Hit the ENgetnodevalues and ENgetlinkvalues loops."""
-    from entoolkit import legacy
     import unittest.mock as mock
+
+    from entoolkit import legacy
     
     with mock.patch("entoolkit.legacy.ENgetcount", return_value=5):
         with mock.patch("entoolkit.legacy.ENgetnodevalue", return_value=0.0):

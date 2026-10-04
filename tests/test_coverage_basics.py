@@ -1,7 +1,8 @@
 import unittest.mock as mock
-from entoolkit.logger import init_logger
+
 import entoolkit.legacy as legacy
-import pytest
+from entoolkit.logger import init_logger
+
 
 def test_logger_reinit():
     """Cover the branch where logger is already initialized."""

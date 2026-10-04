@@ -1,6 +1,9 @@
-import pytest
 import unittest.mock as mock
+
+import pytest
+
 from entoolkit import legacy
+
 
 def test_legacy_error_paths():
     """Trigger the 'if ierr: raise ENtoolkitError(ierr)' branch in legacy functions."""

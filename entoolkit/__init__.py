@@ -22,12 +22,10 @@ Example (Legacy API):
     >>> legacy.ENsolveH()
     >>> legacy.ENclose()
 """
-from . import legacy
-from . import toolkit
-from . import constants
+from . import constants, legacy, toolkit
 from .constants import *
-from .toolkit import EPANETProject
 from .logger import init_logger
+from .toolkit import EPANETProject
 
 __version__ = "0.0.15"
 

@@ -1,9 +1,14 @@
-import pytest
 from entoolkit import (
-    EPANETProject, EN_ITERATIONS, EN_RELATIVEERROR, 
-    EN_NODECOUNT, EN_LINKCOUNT, EN_PATCOUNT, EN_CURVECOUNT,
-    EN_CONTROLCOUNT, EN_RULECOUNT
+    EN_CONTROLCOUNT,
+    EN_CURVECOUNT,
+    EN_ITERATIONS,
+    EN_LINKCOUNT,
+    EN_NODECOUNT,
+    EN_PATCOUNT,
+    EN_RELATIVEERROR,
+    EN_RULECOUNT,
 )
+
 
 def test_simulation_statistics(project, net1_path):
     """Verify retrieval of hydraulic simulation statistics."""

@@ -1,6 +1,7 @@
 import os
-import pytest
+
 from entoolkit import legacy
+
 
 def test_open_legacy_20_network():
     """Verify that a standard EPANET 2.0 compatible file can be opened and solved."""

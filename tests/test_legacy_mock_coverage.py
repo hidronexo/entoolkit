@@ -1,8 +1,10 @@
-import pytest
 import unittest.mock as mock
-import ctypes
+
+import pytest
+
 from entoolkit import legacy
 from entoolkit.constants import *
+
 
 def test_legacy_all_mocked_success():
     """Hit all functions with success (0) results."""
@@ -184,8 +186,9 @@ def test_missing_functions_final():
             assert "not supported" in str(exc.value)
 
 def test_legacy_extra_loops():
-    from entoolkit import legacy
     import unittest.mock as mock
+
+    from entoolkit import legacy
     with mock.patch("entoolkit.legacy.ENgetcount", return_value=3):
         with mock.patch("entoolkit.legacy.ENgetnodevalue", return_value=0.0):
             with mock.patch("entoolkit.legacy.ENgetlinkvalue", return_value=0.0):

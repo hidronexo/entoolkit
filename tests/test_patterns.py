@@ -1,5 +1,5 @@
-import pytest
-from entoolkit import EPANETProject, EN_TIMEPAT, EN_PATCOUNT
+from entoolkit import EN_PATCOUNT
+
 
 def test_add_and_get_pattern(project):
     """Verify adding and retrieving time patterns."""
